@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fishmod",
+  "version": "${version}",
+  "name": "fishmod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/f/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fishmod.fishmod.client.FishModClient"
+    ],
+    "main": [
+      "fishmod.fishmod.FishMod"
+    ]
+  },
+  "mixins": [
+    "fishmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

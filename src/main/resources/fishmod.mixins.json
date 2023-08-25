@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fishmod.fishmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinTropicalFish"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
